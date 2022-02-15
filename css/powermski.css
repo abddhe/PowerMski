@@ -1802,6 +1802,7 @@ header .hidden-links ul li a {
     background-color: #d9d9d9;
     border: 1px solid rgb(212, 210, 210);
     border-left: none;
+    width: 100%;
 }
 
 .video .container .videos-preview img {

@@ -134,7 +134,7 @@ a {
 .heading-text:hover {
     transition: var(--main-transition);
     transition-delay: 1s;
-    border-color: transparent;
+    border-color: white;
     color: #fff;
     z-index: 1;
 }

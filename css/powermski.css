@@ -316,12 +316,15 @@ header .hidden-links ul {
     flex-wrap: wrap;
 }
 
+header .hidden-links ul li:not(:last-child, :nth-of-type(9)) {
+    border-bottom: 1px solid rgb(207, 204, 204);
+}
+
 header .hidden-links ul li {
     display: flex;
     flex-basis: 40%;
     align-items: center;
     position: relative;
-    border-bottom: 1px solid rgb(207, 204, 204);
     margin-left: 5px;
     padding-left: 5px;
 }

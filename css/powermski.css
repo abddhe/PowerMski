@@ -1802,8 +1802,7 @@ header .hidden-links ul li a {
 }
 
 .video .container .videos-preview img {
-    width: 600px;
-    margin-bottom: 200px;
+    width: 100%;
 }
 
 @media (max-width:992px) {

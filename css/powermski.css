@@ -1,7 +1,7 @@
 /* Strat Gloabel Variables */
 
 :root {
-  --main-color: #2196f3;
+  /* --main-color: #2196f3; */
   --main-color-alt: #1787e0;
   --main-transition: 0.3s;
   --main-padding-top: 100px;
@@ -92,7 +92,7 @@ a {
   height: 10px;
   left: -30px;
   background-color: var(--main-color);
-  border:none;
+  border: none;
   border-radius: 50%;
   z-index: -1;
 }
@@ -106,7 +106,7 @@ a {
   background-color: var(--main-color);
   border-radius: 50%;
   z-index: -1;
-  border:none;
+  border: none;
 }
 
 .heading-text:hover::after {

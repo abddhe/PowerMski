@@ -105,8 +105,7 @@ a {
   right: -30px;
   background-color: var(--main-color);
   border-radius: 50%;
-  z-index: -1;
-  border:none;
+  z-index: -1;border:none;
 }
 
 .heading-text:hover::after {

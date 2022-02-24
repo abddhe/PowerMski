@@ -105,7 +105,8 @@ a {
   right: -30px;
   background-color: var(--main-color);
   border-radius: 50%;
-  z-index: -1;border:none;
+  z-index: -1;
+  border:none;
 }
 
 .heading-text:hover::after {
@@ -172,12 +173,12 @@ a {
   display: none;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(192, 192, 192);
+  background-color: var(--main-color);
   transition: 3s;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(156, 156, 156);
+  background-color: var(--alt-color);
 }
 
 /* End Compante */

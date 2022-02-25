@@ -52,3 +52,27 @@ window.onscroll = function () {
     });
   }
 };
+
+// Event Section
+
+const countDownDate = new Date("2022-12-31 23:59:59").getTime();
+
+setInterval(() => {
+  const newDate = new Date().getTime();
+
+  const dayDiff = countDownDate - newDate;
+
+  const days = Math.floor(dayDiff / (1000 * 60 * 60 * 24));
+  document.querySelector(".days").innerHTML = days;
+
+  const hours = Math.floor(
+    (dayDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  document.querySelector(".hours").innerHTML = hours;
+
+  const minutes = Math.floor((dayDiff % (1000 * 60 * 60)) / (1000 * 60));
+  document.querySelector(".minutes").innerHTML = minutes;
+
+  const seconds = Math.floor((dayDiff % (1000 * 60)) / 1000);
+  document.querySelector(".seconds").innerHTML = seconds;
+}, 1000);
